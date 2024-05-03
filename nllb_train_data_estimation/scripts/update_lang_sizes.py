@@ -63,5 +63,5 @@ if __name__ == "__main__":
                         help="Path to .csv file containing language sizes.")
     args = parser.parse_args()
 
-    lang_sizes_mined = get_lang_sizes(args.metadata_dir, COL_NAMES)
+    lang_sizes_mined = get_lang_sizes(args.metadata_dir)
     update_lang_sizes(lang_sizes_mined, args.lang_sizes_path)

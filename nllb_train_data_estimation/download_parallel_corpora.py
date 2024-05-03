@@ -1204,7 +1204,7 @@ if __name__ == "__main__":
     # By uncommenting the function below and downloading the
     # Mburisano_Covid corpus, you agree to the terms of use found here:
     # https://sadilar.org/index.php/en/guidelines-standards/terms-of-use
-    # download_Mburisano_Covid(directory)
+    download_Mburisano_Covid(directory)
 
     download_TIL(directory)
     download_TICO(directory)

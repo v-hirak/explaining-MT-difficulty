@@ -1,3 +1,2 @@
 pandas
 lexicalrichness
-lang2vec

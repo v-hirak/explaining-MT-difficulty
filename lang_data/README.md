@@ -13,3 +13,4 @@ The data is aggregated in the `lang_data.csv` file. Below are the descriptions o
 - `family`: language family as per WALS.
 - `genus`: language genus as per WALS.
 - `d_syn`: syntactic distance from English, calculated using the [lang2vec library](https://github.com/antonisa/lang2vec?tab=readme-ov-file).
+- `train_frac_estimate`: estimated portion in the NLLB-200 train data. See [here](nllb_train_data_estimation) for more details.

@@ -1,15 +1,3 @@
-__pycache__
-figures
-floresp-v2.0-rc.2
-papers
-SupplementaryMaterials
-translations
-wals-2020.3
-suppl_lingty-2019-0025ad.zip
-Vitalii Hirak Proposal.pdf
-distances
-morphology_matters
-flores200_dataset
-flores200_dataset.tar.gz
-venv
-translation/jobs
+*
+!.gitignore
+!lang_data/

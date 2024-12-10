@@ -22,7 +22,7 @@ The data is aggregated in the `lang_data.csv` file. Below are the descriptions o
 Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). Available for all 212 languages. Higher values indicate distances further from English.
 
 - `d_gen`: genetic distance, represents the distance from English on the hypothesized Glottolog language tree.
-- `d_geo`: geographic distance, calculated as the "great circle" distance between the English and a given language on the surface of the Earth.
+- `d_geo`: geographic distance, calculated as the "great circle" distance between English and a given language on the surface of the Earth.
 - `d_syn`: syntactic distance from English, calculated as cosine distance between feature vectors derived from syntactic structures.
 - `d_inv`: inventory distance from English, calculated as cosine distance between the phonological feature vectors derived from the [PHOIBLE](https://phoible.org/), [WALS](https://wals.info/), and [Ethnologue](https://www.ethnologue.com/) databases.
 - `d_pho`: phonological distance from English, calculated as cosine distance between the phonological feature vectors derived from the [PHOIBLE](https://phoible.org/), [WALS](https://wals.info/), and [Ethnologue](https://www.ethnologue.com/) databases.
@@ -48,7 +48,7 @@ Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). A
 
 ### Type/Token Ratio Measures Calculated on FLORES+
 
-Using the [LexicalRichness](https://github.com/lsys/LexicalRichness), we calculate three TTR measures using 997 sentences from the FLORES+ `dev` split for all 212 languages. Higher values indicate higher morphological complexity.
+Using the [LexicalRichness](https://github.com/lsys/LexicalRichness) library, we calculate three TTR measures using 997 sentences from the FLORES+ `dev` split for all 212 languages. Higher values indicate higher morphological complexity.
 
 - `ttr_flores`: type/token ratio, calculated as $TTR=t/w$, where $t$ is the number of unique word types and $w$ is the total number of words.
 - `rttr_flores`: root type/token ratio, calculated as $RTTR=t/\sqrt{w}$.
@@ -78,4 +78,4 @@ Four gradient measures of word order flexibility. Higher values indicate less fr
 
 ### Language Data Availability
 
-We estimate data availability of 165 languages using their respective Wikpedia sizes measured in the number of articles. Article counts are taken from [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).
+We estimate data availability of 165 languages using their respective Wikipedia sizes measured in the number of articles. Article counts are taken from [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).

@@ -45,3 +45,11 @@ Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). A
 - `28A`: Case Syncretism. Available for 45 languages.
 - `29A`: Syncretism in Verbal Person/Number Marking. Available for 45 languages.
 - `81A`: Order of Subject, Object and Verb. Available for 127 languages.
+
+### Type/Token Ratio Measures Calculated on FLORES+
+
+Using the [LexicalRichness](https://github.com/lsys/LexicalRichness), we calculate three TTR measures using 997 sentences from the FLORES+ `dev` split for all 212 languages.
+
+- `ttr_flores`: type/token ratio, calculated as $TTR=t/w$, where $t$ is the number of unique word types and $w$ is the total number of words.
+- `rttr_flores`: root type/token ratio, calculated as $RTTR=t/\sqrt{w}$.
+- `mattr_flores`: moving average type/token ratio, calculated as an average of TTR values computed on fixed-length text chunks. We use the window size of 500 word tokens.

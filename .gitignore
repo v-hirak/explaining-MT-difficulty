@@ -1,4 +1,5 @@
 *
 */
-evaluation/
-!lang_data/
+evaluation
+nllb_train_data_estimation
+translation

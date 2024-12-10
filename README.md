@@ -19,7 +19,7 @@ The data is aggregated in the `lang_data.csv` file. Below are the descriptions o
 
 ### Precomputed Typological Distances from English
 
-Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). Available for all 212 languages.
+Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). Available for all 212 languages. Higher values indicate distances further from English.
 
 - `d_gen`: genetic distance, represents the distance from English on the hypothesized Glottolog language tree.
 - `d_geo`: geographic distance, calculated as the "great circle" distance between the English and a given language on the surface of the Earth.
@@ -30,7 +30,7 @@ Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). A
 
 ### WALS Features
 
-12 WALS features (20A-29A) from the "Morphology" category and one (81A) from the "Word Order" category. Feature values correspond to their order in the respective WALS features.
+12 WALS features (20A-29A) from the "Morphology" category and one (81A) from the "Word Order" category. Feature values are discrete and correspond to their order in the respective WALS features.
 
 - `20A`: Fusion of Selected Inflectional Formatives. Available for 38 languages.
 - `21A`: Exponence of Selected Inflectional Formatives. Available for 38 languages.
@@ -48,8 +48,21 @@ Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). A
 
 ### Type/Token Ratio Measures Calculated on FLORES+
 
-Using the [LexicalRichness](https://github.com/lsys/LexicalRichness), we calculate three TTR measures using 997 sentences from the FLORES+ `dev` split for all 212 languages.
+Using the [LexicalRichness](https://github.com/lsys/LexicalRichness), we calculate three TTR measures using 997 sentences from the FLORES+ `dev` split for all 212 languages. Higher values indicate higher morphological complexity.
 
 - `ttr_flores`: type/token ratio, calculated as $TTR=t/w$, where $t$ is the number of unique word types and $w$ is the total number of words.
 - `rttr_flores`: root type/token ratio, calculated as $RTTR=t/\sqrt{w}$.
 - `mattr_flores`: moving average type/token ratio, calculated as an average of TTR values computed on fixed-length text chunks. We use the window size of 500 word tokens.
+
+### Precalculated Morphological Complexity Measures
+
+Eight continuous morphological complexity measures from [Çöltekin and Rama (2023)](https://www.degruyter.com/document/doi/10.1515/lingvan-2021-0007/html), available for 34 languages. Higher values indicate higher morphological complexity.
+
+- `ttr`: type/token ratio.
+- `msp`: mean size of paradigm.
+- `ws`: information in word structure.
+- `wh`: word entropy.
+- `lh`: lemma entropy.
+- `is`: inflectional synthesis.
+- `mfh`: morphological feature entropy.
+- `-ia`: negative inflection accuracy.

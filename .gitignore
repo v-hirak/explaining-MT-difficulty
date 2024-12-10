@@ -5,3 +5,4 @@ nllb_train_data_estimation
 translation
 lang_data
 requirements.txt
+lang_data/lang_data.csv

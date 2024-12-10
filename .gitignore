@@ -4,3 +4,4 @@ evaluation
 nllb_train_data_estimation
 translation
 lang_data
+requirements.txt

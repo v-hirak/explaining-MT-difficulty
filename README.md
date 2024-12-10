@@ -17,7 +17,7 @@ The data is aggregated in the `lang_data.csv` file. Below are the descriptions o
 - `family`: language family as per WALS.
 - `genus`: language genus as per WALS.
 
-### Precomputed Typological Distances from English
+### Typological Distances from English
 
 Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). Available for all 212 languages. Higher values indicate distances further from English.
 
@@ -54,7 +54,7 @@ Using the [LexicalRichness](https://github.com/lsys/LexicalRichness), we calcula
 - `rttr_flores`: root type/token ratio, calculated as $RTTR=t/\sqrt{w}$.
 - `mattr_flores`: moving average type/token ratio, calculated as an average of TTR values computed on fixed-length text chunks. We use the window size of 500 word tokens.
 
-### Precalculated Morphological Complexity Measures
+### Morphological Complexity Measures
 
 Eight continuous morphological complexity measures from [Çöltekin and Rama (2023)](https://www.degruyter.com/document/doi/10.1515/lingvan-2021-0007/html), available for 34 languages. Higher values indicate higher morphological complexity.
 
@@ -66,3 +66,16 @@ Eight continuous morphological complexity measures from [Çöltekin and Rama (20
 - `is`: inflectional synthesis.
 - `mfh`: morphological feature entropy.
 - `-ia`: negative inflection accuracy.
+
+### Gradient Word Order Freedom Measures
+
+Four gradient measures of word order flexibility. Higher values indicate less freedom in word order.
+
+- `h_dep`: entropy of the order of dependents (e.g. verb-subject and noun-adposition), available for 45 languages. Value is an average for individual syntactic relation entropies from [Levshina (2019)](https://www.degruyter.com/document/doi/10.1515/lingty-2019-0025/html?lang=en).
+- `h_codep`: entropy of the order of codependents (e.g. subject and object of the same verb), available for 44 languages. Value is an average for individual syntactic relation entropies from [Levshina (2019)](https://www.degruyter.com/document/doi/10.1515/lingty-2019-0025/html?lang=en).
+- `SO_prop`: proportion of Subject-Object word order, measured by [Levshina et al. (2023)](https://www.degruyter.com/document/doi/10.1515/ling-2021-0098/html?lang=en). Available for 32 languages.
+- `head-finality`: percentage of head-final phrases, measured by [Levshina et al. (2023)](https://www.degruyter.com/document/doi/10.1515/ling-2021-0098/html?lang=en). Availalbe for 59 languages.
+
+### Language Data Availability
+
+We estimate data availability of 165 languages using their respective Wikpedia sizes measured in the number of articles. Article counts are taken from [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).

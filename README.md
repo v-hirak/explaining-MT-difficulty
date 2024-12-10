@@ -29,3 +29,19 @@ Calculated using the [lang2vec library](https://github.com/antonisa/lang2vec). A
 - `d_fea`: featural distance from English, calculated as cosine distance between feature vectors combining all five features described above.
 
 ### WALS Features
+
+12 WALS features (20A-29A) from the "Morphology" category and one (81A) from the "Word Order" category. Feature values correspond to their order in the respective WALS features.
+
+- `20A`: Fusion of Selected Inflectional Formatives. Available for 38 languages.
+- `21A`: Exponence of Selected Inflectional Formatives. Available for 38 languages.
+- `21B`: Exponence of Tense-Aspect-Mood Inflection. Available for 38 languages.
+- `22A`: Inflectional Synthesis of the Verb. Available for 38 languages.
+- `23A`: Locus of Marking in the Clause. Available for 46 languages.
+- `24A`: Locus of Marking in Possessive Noun Phrases. Available for 46 languages.
+- `25A`: Locus of Marking: Whole-language Typology. Available for 46 languages.
+- `25B`: Zero Marking of A and P Arguments. Available for 46 languages.
+- `26A`: Prefixing vs. Suffixing in Inflectional Morphology. Available for 109 languages.
+- `27A`: Reduplication. Available for 77 languages.
+- `28A`: Case Syncretism. Available for 45 languages.
+- `29A`: Syncretism in Verbal Person/Number Marking. Available for 45 languages.
+- `81A`: Order of Subject, Object and Verb. Available for 127 languages.

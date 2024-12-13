@@ -1,6 +1,6 @@
 # Dataset of Typological Language Properties
 
-This dataset is part of my Master's Thesis project and contains a variety of properties for 212 languages included in the [FLORES+ dataset](https://github.com/openlanguagedata/flores). 
+This dataset contains a variety of typological properties for 212 languages included in the [FLORES+ dataset](https://github.com/openlanguagedata/flores) and is part of my Master's Thesis "Explaining Machine Translation Difficulty in the Age of Massively Multilingual Models: A Study of the Impact of Fine-Grained Typological Features and Beam Size on State-of-the-Art NMT". 
 
 ## Description of Columns
 

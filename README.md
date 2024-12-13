@@ -74,7 +74,7 @@ Four gradient measures of word order flexibility. Higher values indicate less fr
 - `h_dep`: entropy of the order of dependents (e.g. verb-subject and noun-adposition), available for 45 languages. Value is an average for individual syntactic relation entropies from [Levshina (2019)](https://www.degruyter.com/document/doi/10.1515/lingty-2019-0025/html?lang=en).
 - `h_codep`: entropy of the order of codependents (e.g. subject and object of the same verb), available for 44 languages. Value is an average for individual syntactic relation entropies from [Levshina (2019)](https://www.degruyter.com/document/doi/10.1515/lingty-2019-0025/html?lang=en).
 - `SO_prop`: proportion of Subject-Object word order, measured by [Levshina et al. (2023)](https://www.degruyter.com/document/doi/10.1515/ling-2021-0098/html?lang=en). Available for 32 languages.
-- `head-finality`: percentage of head-final phrases, measured by [Levshina et al. (2023)](https://www.degruyter.com/document/doi/10.1515/ling-2021-0098/html?lang=en). Availalbe for 59 languages.
+- `head-finality`: percentage of head-final phrases, measured by [Levshina et al. (2023)](https://www.degruyter.com/document/doi/10.1515/ling-2021-0098/html?lang=en). Available for 59 languages.
 
 ### Language Data Availability
 

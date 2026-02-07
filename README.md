@@ -8,7 +8,7 @@ This dataset contains a variety of typological and morphosyntactic properties fo
 
 ## Description of Properties
 
-Most of the data is aggregated in the `lang_data.csv` file. Additionally, we include typological distances between seven source languages used in our paper (Arabic, English, Italian, Dutch, Turkish, Ukrainian, Vietnamese) and 211 languages in the `distances` folder. Below are the descriptions of the propreties.
+Most of the data is aggregated in the [lang_data.csv](https://github.com/v-hirak/explaining-MT-difficulty/blob/main/lang_data.csv) file. Additionally, we include typological distances between seven source languages used in our paper (Arabic, English, Italian, Dutch, Turkish, Ukrainian, Vietnamese) and 211 languages in the `distances` folder. Below are the descriptions of the propreties.
 
 ### Basic Taxonomic Properties
 

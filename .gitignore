@@ -1,6 +1,6 @@
 *
 */
-!distances
+distances/
 evaluation
 nllb_train_data_estimation
 translation

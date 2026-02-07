@@ -8,7 +8,7 @@ This dataset contains a variety of typological and morphosyntactic properties fo
 
 ## Description of Properties
 
-Most of the data is aggregated in the [lang_data.csv](https://github.com/v-hirak/explaining-MT-difficulty/blob/main/lang_data.csv) file. Additionally, we include typological distances between seven source languages used in our paper (Arabic, English, Italian, Dutch, Turkish, Ukrainian, Vietnamese) and 211 languages in the `distances` folder. Below are the descriptions of the propreties.
+Most of the data is aggregated in the [`lang_data.csv`](https://github.com/v-hirak/explaining-MT-difficulty/blob/main/lang_data.csv) file. Additionally, we include typological distances between seven source languages used in our paper (Arabic, English, Italian, Dutch, Turkish, Ukrainian, Vietnamese) and 211 languages in the [`distances`](https://github.com/v-hirak/explaining-MT-difficulty/tree/main/distances) folder. Below are the descriptions of the propreties.
 
 ### Basic Taxonomic Properties
 
@@ -23,7 +23,7 @@ Most of the data is aggregated in the [lang_data.csv](https://github.com/v-hirak
 
 ### Typological Distances
 
-Using the [lang2vec library](https://github.com/antonisa/lang2vec), we query six types of typological distances between a source and target language. Since our paper features seven source languages (Arabic, English, Italian, Dutch, Turkish, Ukrainian, Vietnamese), the `distances` folder contains seven sets of distance measures between each source language and the rest 211 target languages. Higher values indicate larger source-target distances.
+Using the [lang2vec library](https://github.com/antonisa/lang2vec), we query six types of typological distances between a source and target language. Since our paper features seven source languages (Arabic, English, Italian, Dutch, Turkish, Ukrainian, Vietnamese), the [`distances`](https://github.com/v-hirak/explaining-MT-difficulty/tree/main/distances) folder contains seven sets of distance measures between each source language and the rest 211 target languages. Higher values indicate larger source-target distances.
 
 - `d_gen`: _genetic_ distance, represents the source-target language distance on the hypothesized Glottolog language tree.
 - `d_geo`: _geographic_ distance, calculated as the "great circle" distance of a source-target language pair on the surface of the Earth.

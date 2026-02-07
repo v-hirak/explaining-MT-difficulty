@@ -2,9 +2,9 @@
 
 <a href="https://arxiv.org/abs/2602.03551"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2602.03551-b31b1b"></a>
 
-This dataset contains a variety of typological and morphosyntactic properties for languages from the [FLORES+ dataset](https://huggingface.co/datasets/openlanguagedata/flores_plus) and is part of our EACL 2026 paper ["Assessing the Impact of Typological Features on Multilingual Machine Translation in the Age of Large Language Models"](https://arxiv.org/abs/2602.03551). We use these properties to estimate the impact of target language typology on neural machine translation difficulty. We find that target languages with certain features benefit more from a large decoding space during translation and thus may call for alternative decoding strategies.
-
 **Authors:** Vitalii Hirak, Jaap Jumelet, Arianna Bisazza.
+
+This dataset contains a variety of typological and morphosyntactic properties for languages from the [FLORES+ dataset](https://huggingface.co/datasets/openlanguagedata/flores_plus) and is part of our EACL 2026 paper ["Assessing the Impact of Typological Features on Multilingual Machine Translation in the Age of Large Language Models"](https://arxiv.org/abs/2602.03551). We use these properties to estimate the impact of target language typology on neural machine translation difficulty. We find that target languages with certain features benefit more from a large decoding space during translation and thus may call for alternative decoding strategies.
 
 ## Description of Properties
 

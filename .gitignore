@@ -8,3 +8,4 @@ lang_data
 requirements.txt
 lang_data/lang_data.csv
 !thesis.pdf
+!LICENSE

@@ -84,3 +84,19 @@ Four gradient measures of word order proposed and computed by [Levshina (2019)](
 
 - `glotcc_size`: we approximate the _general resourcedness of a language_ using language size data from the [GlotCC broad-coverage CommonCrawl corpus](https://github.com/cisnlp/GlotCC?tab=readme-ov-file). We collect content length values for 210 out of 212 languages in FLORES+.
 - `wiki_size`: we estimate data availability of 169 languages using their respective Wikipedia sizes measured in the number of articles. Article counts are taken from [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).
+
+## Citing
+
+If you use this dataset in your research, pleace cite our paper:
+
+```bibtex
+@misc{hirak2026assessingimpacttypologicalfeatures,
+      title={Assessing the Impact of Typological Features on Multilingual Machine Translation in the Age of Large Language Models}, 
+      author={Vitalii Hirak and Jaap Jumelet and Arianna Bisazza},
+      year={2026},
+      eprint={2602.03551},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.03551}, 
+}
+```
